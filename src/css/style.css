@@ -1,1 +1,52 @@
-
+header{
+    background-color: #990000;
+    height: 70px;
+}
+.barra{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    width: 90vw;
+    margin: 0 auto;
+}
+.navbar-brand img{
+    width: 240px;
+}
+.quemsomos{
+    background-color: #BF6565;
+}
+.container{
+    padding-top: 25px;
+}
+.grid{
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+}
+.col-sm{
+    width: 100%;
+}
+.Blocot1{
+    height: 200px;
+    background-color: #ce9898;
+    text-align: center;
+    color: #fff;
+}
+.Blocot2{
+    height: 200px;
+    background-color: #bf4444;
+    text-align: center;
+    color: #fff;  
+}
+.blococonteudo{
+    display: flex;
+    flex-direction: row;
+    margin: 0 20px;
+    padding: 35px 0;
+    align-items: center;
+    justify-content: space-evenly;
+}
